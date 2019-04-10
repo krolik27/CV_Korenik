@@ -12,11 +12,11 @@ body {
   margin: 0 auto;
   transition: .5s ease-in-out;
   font-family: 'Roboto', sans-serif;
+  color: #262832;
   font-size: 16px;
   line-height: 20px;
   transition: all 1s ease-in-out;
   position: relative;
-  /*overflow: hidden;*/
 }
 
 a {
