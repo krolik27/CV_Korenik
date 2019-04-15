@@ -270,7 +270,12 @@ main {
   display: inline-block;
   transform: rotate(-45deg);
 }
-
+.dial:hover{
+   transform: rotate(-90deg);
+    -webkit-box-shadow: 0 0 15px 0 rgba(50, 50, 50, 0.8);
+    -moz-box-shadow:    0 0 15px 0 rgba(50, 50, 50, 0.8);
+    box-shadow:         0 0 15px 0 rgba(50, 50, 50, 0.8);
+}
 .dial p {
   transform: rotate(45deg);
   top: 50%;
