@@ -143,6 +143,7 @@ main {
 
 .buttons a:hover {
   background: #0086BA;
+  border: 1px solid white;
 }
 
 .part2Nav {
