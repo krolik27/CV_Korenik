@@ -623,6 +623,10 @@ label.third{
   width: 380px;
   height: 380px;
  }
+ .works_foto p{
+  text-align: left;
+  padding-left: 100px;
+ }
  .container{
   display: flex;
   width: 400px;
@@ -656,7 +660,6 @@ label.third{
   .section_main{
  padding: 30px;
 }
-
 .pluses_txt{
    max-width: 400px;
    padding-right: 20px;
@@ -698,27 +701,27 @@ h2 {
  }
  .section_main_info{
   padding: 0;
-}
-.buttons{
+ }
+ .buttons{
   margin-top: 0;
-}
-.buttons a{
+ }
+ .buttons a{
   padding-top: 5%;
   margin: 20px 10px 0 0;
   height: 90px;
   width: 90px;
-}
-.work_experience{
+ }
+ .work_experience{
   max-width: 300px;
   margin-bottom: 100px;
-}
-.eduplus{
+ }
+ .eduplus{
   max-width: 250px;
-}
-.part2{
+ }
+ .part2{
   margin: 0;
-}
-.foto1,.foto2,.foto3 {
+ }
+ .foto1,.foto2,.foto3 {
   width: 280px;
   height: 280px;
  }
