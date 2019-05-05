@@ -75,13 +75,14 @@ main {
 }
 
 .section_main {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 100%;
-  padding: 30px;
-  margin: 10px 0;
   text-align: left;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  background: rgba(250, 250, 250, 0.7);
+  padding: 60px 0;
+  margin: 30px;
 }
 
 .section_main_foto {
@@ -94,15 +95,6 @@ main {
   border-radius: 100%;
   background-size: 100%;
   background-position: center right;
-}
-
-.section_main {
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
-  background: rgba(250, 250, 250, 0.7);
-  padding: 60px 0;
-  margin: 30px;
 }
 
 .section_main_info {
@@ -568,4 +560,209 @@ label.third{
 #third:checked ~ div.three {
   left:0;
   opacity:1;
+}
+
+@media only screen and (max-width: 1020px) {
+ .section_main {
+  padding: 40px 0;
+  margin: 20px;
+}
+
+.section_main_foto {
+  margin: 10px;
+}
+.section_main_info{
+  padding: 0 15px;
+}
+
+}
+
+@media only screen and (max-width: 910px) {
+ header{
+  margin: 0;
+ }
+ .section_main_info{
+  align-items: center;
+}
+ .section_main_info>a{
+  margin-top: -15px;
+}
+.section_main_info>h2{
+  margin-bottom: 15px;
+}
+.buttons{
+  margin-top: 30px;
+}
+
+}
+@media only screen and (max-width: 730px) {
+ .section_portfolio h2{
+  margin: 60px 0 -50px 20px;
+ }
+
+}
+
+@media only screen and (max-width: 690px) {
+  .section_main{
+ padding: 40px;
+}
+ .works_discr{
+  display: none;
+ }
+ .buttons a:nth-child(3){
+  margin: 20px 0 0 0;
+ }
+ .works_foto{
+  margin: 75px 10px 10px 10px;
+  margin-left: 10px;
+ }
+ .section_portfolio h2, .section_skills h2, .work_experience h2{
+  text-align: center;
+ }
+ .foto1,.foto2,.foto3 {
+  width: 380px;
+  height: 380px;
+ }
+ .container{
+  display: flex;
+  width: 400px;
+}
+label.first{
+  left:25%;
+}
+label.second{
+  left:45%;
+}
+label.third{
+  left:65%;
+}
+.pluses_txt{
+   max-width: 400px;
+}
+.eduplus{
+  max-width: 400px;
+}
+.section_skills {
+  padding: 100px 10px 150px 10px;
+  max-width: 400px;
+ }
+  .also_skills {
+  max-width: 380px;
+  margin-left: 10%;
+  padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .section_main{
+ padding: 30px;
+}
+
+.pluses_txt{
+   max-width: 400px;
+   padding-right: 20px;
+}
+.eduplus{
+  max-width: 300px;
+}
+.section_skills {
+  padding: 100px 10px 150px 10px;
+  max-width: 400px;
+ }
+  .also_skills {
+  max-width: 380px;
+  margin-left: 10%;
+  padding: 0 10px;
+  }
+  .work_experience h2{
+    line-height: 1;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body{
+    font-size: 14px;
+  line-height: 18px;
+  }
+  h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.section_main_foto{
+  max-width: 250px;
+  max-height: 250px;
+  margin: 0 -30px 0 -30px;
+ }
+ .section_main_info{
+  padding: 0;
+}
+.buttons{
+  margin-top: 0;
+}
+.buttons a{
+  padding-top: 5%;
+  margin: 20px 10px 0 0;
+  height: 90px;
+  width: 90px;
+}
+.work_experience{
+  max-width: 300px;
+  margin-bottom: 100px;
+}
+.eduplus{
+  max-width: 250px;
+}
+.part2{
+  margin: 0;
+}
+.foto1,.foto2,.foto3 {
+  width: 280px;
+  height: 280px;
+ }
+ .work_experience_border{
+  padding: 30px 10px;
+ }
+ label{
+  width: 50px;
+  height: 50px;
+ }
+ .container{
+  display: flex;
+  width: 300px;
+  min-height: 400px;
+}
+label.first{
+  left:25%;
+}
+label.second{
+  left:45%;
+}
+label.third{
+  left:65%;
+}
+.pluses_txt{
+   max-width: 300px;
+   padding: 0;
+}
+
+.section_skills {
+  padding: 70px 10px 200px 10px;
+  max-width: 280px;
+ }
+ .dial{
+  margin: 10px;
+ }
+  .also_skills {
+  max-width: 230px;
+  margin-left: 10%;
+  margin-top: -150px;
+  padding: 0 10px;
+  }
+ .part2Nav{
+  margin-top: 30px;
+  padding: 80px 0;
+ }
 }
