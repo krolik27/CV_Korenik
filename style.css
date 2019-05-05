@@ -642,9 +642,17 @@ label.third {
     width: 380px;
     height: 380px;
   }
-  .works_foto p {
+  .works_foto p:first-child{
     text-align: center;
-    padding-left: 20%;
+    margin-left: -15%;
+  }
+  .works_foto p:nth-child(2) {
+    text-align: center;
+    margin-left: -15%;
+  }
+  .works_foto p:nth-child(3) {
+    text-align: center;
+    margin-left: -15%;
   }
   .container {
     display: flex;
@@ -746,6 +754,18 @@ label.third {
   .foto3 {
     width: 280px;
     height: 280px;
+  }
+  .works_foto p:first-child{
+    text-align: center;
+    margin-left: 15%;
+  }
+  .works_foto p:nth-child(2) {
+    text-align: center;
+    margin-left: 20%;
+  }
+  .works_foto p:nth-child(3) {
+    text-align: center;
+    margin-left: 20%;
   }
   .work_experience_border {
     padding: 30px 10px;
