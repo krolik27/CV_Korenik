@@ -90,7 +90,7 @@ main {
   height: 300px;
   filter: hue-rotate(0deg);
   transition: .5s linear;
-  background: url("img/foto.jpg") no-repeat;
+  background: url("img/foto_1.jpg") no-repeat;
   border-radius: 100%;
   background-size: 100%;
   background-position: center right;
