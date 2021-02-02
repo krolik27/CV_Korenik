@@ -93,7 +93,7 @@ main {
   background: url("img/foto_1.jpg") no-repeat;
   border-radius: 100%;
   background-size: 100%;
-  background-position: center right;
+  background-position: center top;
 }
 
 .section_main_info {
