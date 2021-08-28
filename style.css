@@ -307,7 +307,7 @@ main {
 }
 
 .section_portfolio h2 {
-  margin: 60px 0 -50px 0;
+  /*margin: 60px 0 -50px 0;*/
   z-index: 10;
 }
 
@@ -449,7 +449,7 @@ main {
   box-sizing: border-box;
   line-height: 14px;
   height: 50%;
-  z-index: -10;
+  /*z-index: -10;*/
 }
 
 .work_experience {
