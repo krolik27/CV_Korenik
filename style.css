@@ -139,7 +139,7 @@ main {
 }
 
 .part2Nav {
-  padding: 100px 0;
+  padding: 0;
   margin-top: 60px;
 }
 
@@ -470,7 +470,7 @@ main {
 }
 
 .work_experience_border2 {
-  margin: -200px 0 0 0;
+  margin: 0 0 0 0;
   width: 100%;
   padding: 40px 30px 30px 30px;
   border: 1px solid white;
