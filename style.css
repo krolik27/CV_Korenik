@@ -793,7 +793,7 @@ label.third {
   }
   .pluses_txt {
     max-width: 300px;
-    padding: 0;
+   /* padding: 0;*/
   }
   .section_skills {
     padding: 70px 10px 200px 10px;
