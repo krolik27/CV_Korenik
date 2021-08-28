@@ -1,4 +1,4 @@
-html {
+dial procent25html {
   background-image: url("img/chertezh-shema-linii.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,6 +284,7 @@ main {
 
 .procent25 {
   border-right-color: #63BBDD;
+  border-bottom-color: #37AFDD;
 }
 
 .procent50 {
